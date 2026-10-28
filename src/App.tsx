@@ -219,7 +219,6 @@ export default function App() {
       `Status: *${reg.status}*\n` +
       `Domisili: *${reg.domicile}*\n` +
       `Bidang Peminatan: *${reg.fields.join(', ')}*\n` +
-      `Nominal: *Rp250.000*\n\n` +
       `Saya ingin melanjutkan pembayaran pendaftaran Rp250K. Mohon petunjuk nomor rekening dan konfirmasi selanjutnya.`
     );
     window.open(`https://wa.me/6282371068831?text=${text}`, '_blank');
