@@ -308,7 +308,20 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-[#ebedf2] text-[#111111] font-sans selection:bg-black selection:text-white pb-12">
+    <div className="min-h-screen bg-[#ebedf2] text-[#111111] font-sans selection:bg-black selection:text-white pb-12 relative overflow-hidden">
+      
+      {/* Background Watermark Logo with reduced opacity */}
+      <div 
+        className="fixed inset-0 pointer-events-none z-0 flex items-center justify-center opacity-[0.05]"
+        style={{
+          backgroundImage: `url('/assets/aistudio/WhatsApp_Image_2026-10-28_at_18.42.58_6d42a93a.jpeg')`,
+          backgroundRepeat: 'no-repeat',
+          backgroundPosition: 'center',
+          backgroundSize: 'min(90vw, 700px) auto'
+        }}
+      />
+
+      <div className="relative z-10">
       
       {/* MINIMALIST FLOATING NAVBAR */}
       <header className="fixed top-3 sm:top-5 inset-x-0 z-50 px-3 sm:px-6 max-w-5xl mx-auto">
@@ -1314,6 +1327,7 @@ export default function App() {
         </div>
       )}
 
+      </div>
     </div>
   );
 }
