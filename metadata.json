@@ -1,0 +1,6 @@
+{
+  "name": "DIGITAL VAIBE KENDARI (DIVI CLUB)",
+  "description": "Komunitas belajar skill digital, AI, Vibe Coding, Digital Marketing, dan Basic Komputer di Kendari. Membership Rp250K sekali bayar, bebas akses semua pelatihan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
