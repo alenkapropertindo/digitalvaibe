@@ -133,6 +133,10 @@ export default function App() {
 
   const faqs = [
     {
+      q: 'Bagaimana sistem pelatihan setelah bergabung dengan VAIBE CLUB?',
+      a: 'Di awal bergabung, Anda akan mengikuti sesi privat 4 kali pertemuan untuk bidang yang Anda pilih. Setelah itu, Anda bebas mengikuti kelas manapun yang diadakan oleh Digital Vaibe Kendari (baik sesuai bidang maupun lintas bidang) untuk upgrade skill tanpa batas.'
+    },
+    {
       q: 'Berapa biaya bergabung dengan VAIBE CLUB?',
       a: 'Biaya pendaftaran adalah Rp250.000 sekali bayar (One-time membership fee) untuk seluruh aktivitas komunitas.'
     },
@@ -340,7 +344,7 @@ export default function App() {
                 DIGITAL VAIBE
               </span>
               <span className="text-[10px] font-bold tracking-widest text-gray-500 uppercase">
-                VAIBE CLUB
+                Kendari
               </span>
             </div>
           </a>
@@ -443,19 +447,19 @@ export default function App() {
               {/* Animated Floating Pill Badge */}
               <div className="inline-flex items-center space-x-2 px-4 py-2 rounded-full clay-pill text-[11px] sm:text-xs font-bold text-black animate-float">
                 <span className="w-2 h-2 rounded-full bg-black animate-ping" />
-                <span>Komunitas Resmi • VAIBE CLUB Kendari</span>
+                <span>Komunitas Resmi • Digital vAIbe Kendari</span>
               </div>
 
-              <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-black leading-[1.15]">
-                Skill Digital Hari Ini, <br className="hidden sm:inline" />
+              {/* <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-black leading-[1.15]">
+                Komunitas belajar AI, <br className="hidden sm:inline" />
                 <span className="relative inline-block mt-1">
-                  Peluang Baru di Hari Esok.
+                 Era digital.
                   <span className="absolute left-0 -bottom-1 w-full h-[4px] bg-black rounded-full opacity-80" />
                 </span>
-              </h1>
+              </h1>*/}
 
               <p className="text-sm sm:text-lg text-gray-700 max-w-xl mx-auto lg:mx-0 font-medium leading-relaxed">
-                Bergabung dengan <strong className="text-black font-extrabold">VAIBE CLUB</strong>, wadah komunitas untuk belajar, berbagi pengalaman, dan mengakselerasi kemampuan digital bersama di Kota Kendari.
+                <strong className="text-black font-extrabold">Digital Vaibe Kendari</strong>, komunitas untuk kamu belajar, sharing, dan mengakselerasi kemampuan digital bersama di Kota Kendari.
               </p>
 
               {/* Mobile Tactile CTA Buttons */}
@@ -684,6 +688,23 @@ export default function App() {
               </p>
             </div>
 
+          </div>
+
+          {/* Highlight 4-Session Private Training & Free Cross-Field Access */}
+          <div className="mt-8 clay-card p-6 sm:p-8 border-2 border-black/10">
+            <div className="flex flex-col md:flex-row items-center gap-6">
+              <div className="w-16 h-16 rounded-2xl clay-button-black flex items-center justify-center shrink-0 font-extrabold text-xl">
+                4x
+              </div>
+              <div className="space-y-2 text-center md:text-left">
+                <h3 className="text-lg sm:text-xl font-extrabold text-black">
+                  Sesi Privat 4x Pertemuan & Akses Kelas Tanpa Batas
+                </h3>
+                <p className="text-xs sm:text-sm text-gray-700 leading-relaxed font-medium">
+                  Di awal bergabung, Anda akan mengikuti <strong>sesi privat 4 kali pertemuan</strong> untuk bidang yang Anda pilih. Setelah itu, Anda bebas mengikuti kelas manapun yang diadakan oleh Digital Vaibe Kendari (baik sesuai bidang maupun lintas bidang) untuk upgrade skill tanpa batas!
+                </p>
+              </div>
+            </div>
           </div>
 
         </div>
